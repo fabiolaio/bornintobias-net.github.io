@@ -2,4 +2,6 @@
  Connecting Latin American Dots
 
 
-exhibited at panke gallery
+Exhibited at panke gallery
+September 14 
+19:00
