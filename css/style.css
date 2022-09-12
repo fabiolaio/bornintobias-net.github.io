@@ -1,0 +1,117 @@
+/* comentario */
+
+body {
+      background-image: url("mexicancybercafe.png");
+      background-repeat: round;
+      background-size: 100%;
+    
+      
+      /*background-color: rgb(244, 191, 255);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color:red;*/
+      cursor: url('../mexicanchile.png'), auto;
+}
+
+
+
+h1{
+  color:white;
+}
+h2{
+  color:white;
+}
+
+#parrafo1{
+  color:rgb(2, 88, 16);
+  font-family:'Arial';
+  font-size: 30px;
+  font-weight:bold;
+
+
+  /* width:10vw;
+  para modificar la variable de los tamaños en la página
+  width:10vh; */
+
+}
+
+#parrafo2{
+  color:rgb(255, 255, 255);
+  font-family:'Comic Sans MS';
+  font-size: 50px;
+  width: 50%;
+  text-decoration: line-through;
+  font-style:italic;
+  margin-left: 10%;
+
+}
+
+.borde{
+  border:10px dotted green;
+}
+
+#fondo {
+  z-index: 9999;
+  position: fixed;
+  left: 33%;
+  width: 33%;
+
+
+}
+
+#control {
+  z-index: -1;
+  position: fixed;
+  right: 10%;
+  width: 20%;
+
+}
+
+img{
+width: 50%;
+
+}
+
+#fantasma {/* desaparece un elemento la principio*/
+  display:none;
+}
+
+#opacity {
+  filter:opacity(90%);
+}
+
+.playme {
+  width: 50%;
+  height: 50%;
+}
+
+#adios {background-image: url("200.gif");
+  height: 70%;
+  width: 30%;
+
+}
+
+#adios:hover {
+  background-image: url("cartman.gif");
+
+}
+
+
+#another {background-image: url("jail.gif");
+  height: 70%;
+  width: 30%;
+
+}
+
+#another:hover {
+  background-image: url("senors.gif");
+
+}
+
+/* #fantasma:hover {
+filter:blur(10px);
+}
+
+span:hover + #fantasma { /*aparece algo en hover */
+display: block;
+}
