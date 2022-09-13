@@ -129,5 +129,5 @@ filter:blur(10px);
 }
 
 span:hover + #fantasma { /*aparece algo en hover */
-display: block;
+{display: block;
 }
