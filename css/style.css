@@ -1,28 +1,33 @@
 /* comentario */
 
 body {
-  background-image: url("mexicancybercafe.jpg");
-  background-repeat: round;
-  background-size: 100%;
 
-    
+  background: linear-gradient(90deg, rgba(7,133,43,1) 0%, rgba(244,244,244,1) 50%, rgba(255,0,0,1) 100%);
+  position: absolute;
       
       /*background-color: rgb(244, 191, 255);
       background-repeat: no-repeat;
       background-size: cover;
       color:red;*/
-      cursor: url('../mexicanchile.png'), auto;
+      cursor: url('../mexicanchile.png'), auto;  z-index: 0;
+}
+
+
+#parrafo1, #adios, #parrafo3, #parrafo2, #parrafo4 {
+  position: relative;
+  z-index: 55;
 }
 
 div.background-image {
-
-      background: rgb(7,133,43);
-      background: linear-gradient(90deg, rgba(7,133,43,1) 0%, rgba(244,244,244,1) 50%, rgba(255,0,0,1) 100%);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top:0;
-
+   position: absolute;
+   z-index: 50;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(./css/mexicancybercafe.jpg);
+   background-repeat: round;
+   background-size: 100%;
+   cursor: url(../mexicanchile.png), auto;
 }
 
 
