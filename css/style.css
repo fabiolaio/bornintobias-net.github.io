@@ -103,6 +103,7 @@ width: 50%;
   filter:opacity(90%);
   width: 45%;
   height: 40%;
+  z-index: 55;
 }
 
 #playme {
@@ -165,6 +166,17 @@ width: 50%;
 
 }
 
+
+#opacity2 {
+  filter:opacity(90%);
+  width: 20%;
+  height: 20%;
+}
+
+/* #fantasma:hover {
+filter:blur(10px);
+}
+
 #text2{
   color:rgb(255, 255, 255);
   font-family:'Comic Sans MS';
@@ -177,15 +189,6 @@ width: 50%;
 
 }
 
-#opacity2 {
-  filter:opacity(90%);
-  width: 20%;
-  height: 20%;
-}
-
-/* #fantasma:hover {
-filter:blur(10px);
-}
 
 span:hover + #fantasma { /*aparece algo en hover */
 {display: block;
