@@ -1,5 +1,10 @@
 /* comentario */
 
+header {
+  position: relative;
+  z-index: 100;
+}
+
 body {
 
   background: linear-gradient(90deg, rgba(7,133,43,1) 0%, rgba(244,244,244,1) 50%, rgba(255,0,0,1) 100%);
@@ -15,7 +20,7 @@ body {
 }
 
 
-#parrafo1, #adios, img, #parrafo2, #parrafo3, #parrafo4, #text {
+#parrafo1, #adios, img, #parrafo2, #parrafo3, #parrafo4, #text, #opacity2 {
   position: relative;
   z-index: 50;
 }
@@ -159,6 +164,25 @@ width: 50%;
   z-index: 55;
 
 }
+
+#text2{
+  color:rgb(255, 255, 255);
+  font-family:'Comic Sans MS';
+  filter:opacity(90%);
+  font-size: 20px;
+  width: 50%;
+  font-style:bold;
+  margin-left: 5%;
+  z-index: 55;
+
+}
+
+#opacity2 {
+  filter:opacity(90%);
+  width: 20%;
+  height: 20%;
+}
+
 /* #fantasma:hover {
 filter:blur(10px);
 }
