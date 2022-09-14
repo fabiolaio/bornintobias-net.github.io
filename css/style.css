@@ -4,6 +4,8 @@ body {
 
   background: linear-gradient(90deg, rgba(7,133,43,1) 0%, rgba(244,244,244,1) 50%, rgba(255,0,0,1) 100%);
   position: absolute;
+  padding: 0;
+  margin: 0;
       
       /*background-color: rgb(244, 191, 255);
       background-repeat: no-repeat;
@@ -13,18 +15,26 @@ body {
 }
 
 
-#parrafo1, #adios, #parrafo3, #parrafo2, #parrafo4 {
+#parrafo1, #adios, img, #parrafo2, #parrafo3, #parrafo4, #text {
   position: relative;
-  z-index: 55;
+  z-index: 50;
+}
+
+#parrafo1 {
+   color: rgb(2, 88, 16);
+   font-family: 'Arial';
+   font-size: 30px;
+   font-weight: bold;
+   margin: 0 100px;
 }
 
 div.background-image {
-   position: absolute;
-   z-index: 50;
+   position: fixed;
+   z-index: 0;
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url(./css/mexicancybercafe.jpg);
+   background-image: url(../css/mexicancybercafe.jpg);
    background-repeat: round;
    background-size: 100%;
    cursor: url(../mexicanchile.png), auto;
@@ -75,14 +85,6 @@ h2{
 
 }
 
-#control {
-  z-index: -1;
-  position: fixed;
-  right: 10%;
-  width: 20%;
-
-}
-
 img{
 width: 50%;
 
@@ -103,10 +105,17 @@ width: 50%;
   height: 50%;
 }
 
-#adios {background-image: url("200.gif");
-  height: 70%;
-  width: 30%;
-
+#control {
+  position: fixed;
+  right: 10%;
+  width: 20%;
+  z-index: 45;
+}
+#adios {
+  background-image: url(200.gif);
+  height: 400px;
+  width: 532px;
+  display: inline-block;
 }
 
 #adios:hover {
@@ -139,7 +148,17 @@ width: 50%;
 
 }
 
+#text{
+  color:rgb(255, 255, 255);
+  font-family:'Comic Sans MS';
+  filter:opacity(90%);
+  font-size: 20px;
+  width: 50%;
+  font-style:bold;
+  margin-left: 5%;
+  z-index: 55;
 
+}
 /* #fantasma:hover {
 filter:blur(10px);
 }
